@@ -1,0 +1,33 @@
+/* colors palettes */
+
+* {
+    text-align: center;
+    margin-top: 0px;
+}
+
+h1,
+h2,
+p {
+    color: #014F86;
+}
+
+#letraColorUno{
+   color: #2A6F97; 
+}
+
+.letraColor2{
+    color: blue;
+}
+
+/* 
+h1 {
+    color: #dab49d;
+}
+
+h2 {
+    color: #dab49d;
+}
+
+p {
+    color: #dab49d;
+} */

@@ -1,0 +1,55 @@
+/* Ajustes generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('../recursos/image1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    overflow-x: hidden; /* Elimina la barra de desplazamiento horizontal */
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Alinea los elementos a la izquierda */
+    padding: 20px 50px; /* Ajusta el espacio del header */
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+/* Logo */
+.logo {
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-right: 50px; /* Da más espacio entre el logo y el menú */
+}
+
+/* Menú */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 60px; /* Espaciado entre los elementos del menú */
+    padding: 0;
+    margin: 0;
+    transform: translateX(30px); /* Mueve el menú ligeramente a la derecha */
+    margin-left: 800px; /* Aumenta este valor si lo quieres más a la derecha */
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: yellow;
+}

@@ -1,0 +1,61 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;         eso es para que los <div> esten en un mismo renglon
+    justify-content: space-between;  es para que se separen lo mas posibles todos los pedacitos
+        gap: 10px; spacio entre elementos
+}
+
+.flexContenedor {
+    display: flex;
+    gap: 10px;
+}
+
+/* nav > ul {  afecta solo si esta en ese orden y de la otra manera siempre afecta
+
+} */
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+}
+
+nav ul li {
+    margin-right: 5px;
+}
+
+.divSecundario {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    margin-bottom: 60px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.fondo {
+    background-color: grey;
+}
+
+/* .configuracionEnlaces {
+    color: white;
+    font-size: 15px;
+} */
+
+.fondo>a {
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.espacioInput {
+    
+    margin-left: 62%;
+}
